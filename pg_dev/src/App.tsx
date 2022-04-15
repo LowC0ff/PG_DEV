@@ -9,6 +9,9 @@ function App() {
        <Switch>
 
          <Route path='/profile'>
+           <ProtectedLayout>
+             <h2>Seja bem vindo!</h2>
+           </ProtectedLayout>
 
          </Route>
 
